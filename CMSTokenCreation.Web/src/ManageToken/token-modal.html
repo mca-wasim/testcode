@@ -1,0 +1,109 @@
+﻿<div class="modal-content">
+    <div class="modal-header navbar-inverse">
+        <h4 class="modal-title" style="color:white;">{{vm.tokenModule}}</h4>
+    </div>
+    <form class="form form-horizontal" name="CMSEditForm" ng-submit="vm.save()">
+        <div class="modal-body">
+
+
+
+            <div class="form-group form-group-sm">
+                <label for="FisrtName" class="control-label text-right col-xs-4">First Name: </label>
+                <input type="text" id="FirstName" name="FisrtName" class="form-control"
+                       required ng-model="vm.data.FirstName"
+                      
+                       ng-trim="false"
+                       close-text="Close" alt-input-formats="altInputFormats"
+                       maxlength="50" />
+                <div style="height: 10px;font-size: 10px;text-align: center;padding-top:10px">
+                    <span class="alert alert-danger" ng-show="CMSEditForm.FirstName.$error.pattern" style="padding:8px">
+                        Alphabets,Numbers,Underscore and Dash allowed
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group form-group-sm">
+                <label for="LastName" class="control-label text-right col-xs-4">Last Name: </label>
+                <input type="text" id="LastName" name="LastName" class="form-control"
+                       required ng-model="vm.data.LastName"
+                       
+                       ng-trim="false"
+                       close-text="Close" alt-input-formats="altInputFormats"
+                       maxlength="50" />
+                <div style="height: 10px;font-size: 10px;text-align: center;padding-top:10px">
+                    <span class="alert alert-danger" ng-show="CMSEditForm.LastName.$error.pattern" style="padding:8px">
+                        Alphabets,Numbers,Underscore and Dash allowed
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="form-group form-group-sm">
+                <label for="PhoneNumber" class="control-label text-right col-xs-4">Phone: </label>
+                <input type="text" id="PhoneNumber" name="PhoneNumber" class="form-control"
+                       required ng-model="vm.data.PhoneNumber"
+                       
+                       ng-trim="false"
+                       close-text="Close" alt-input-formats="altInputFormats"
+                       maxlength="50" />
+                <div style="height: 10px;font-size: 10px;text-align: center;padding-top:10px">
+                    <span class="alert alert-danger" ng-show="CMSEditForm.PhoneNumber.$error.pattern" style="padding:8px">
+                        Alphabets,Numbers,Underscore and Dash allowed
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="form-group form-group-sm">
+                <label for="Email" class="control-label text-right col-xs-4">Email: </label>
+                <input type="text" id="Email" name="Email" class="form-control"
+                       required ng-model="vm.data.Email"
+                       
+                       ng-trim="false"
+                       close-text="Close" alt-input-formats="altInputFormats"
+                       maxlength="50" />
+                <div style="height: 10px;font-size: 10px;text-align: center;padding-top:10px">
+                    <span class="alert alert-danger" ng-show="CMSEditForm.Email.$error.pattern" style="padding:8px">
+                        Alphabets,Numbers,Underscore and Dash allowed
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group form-group-sm">
+                <label for="Status" class="control-label text-right col-xs-4">Status: </label>
+                <!--<input type="text" id="Status" name="Status" class="form-control"
+                       required ng-model="vm.data.Status"
+                       ng-trim="false"
+                       close-text="Close" alt-input-formats="altInputFormats"
+                       maxlength="50" />-->
+
+                <select class="form-control" name="Status" ng-model="vm.data.Status" required  style="width:180px;">
+                    <option data-ng-repeat="status in vm.Statuses" value="{{status.value}}">{{status.name}}</option>
+                </select>
+
+                <div style="height: 10px;font-size: 10px;text-align: center;padding-top:10px">
+                    <span class="alert alert-danger" ng-show="CMSEditForm.Status.$error.pattern" style="padding:8px">
+                        Alphabets,Numbers,Underscore and Dash allowed
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="form-group form-group-sm" ng-show="vm.update">
+                <label for="changeUserId" class="control-label text-right col-xs-4">Contact Id : </label>
+                <input type="text" id="ContactId" name="changeUserId" class="form-control"
+                       ng-model="vm.data.ContactId"
+                       ng-disabled="true"
+                       close-text="Close" alt-input-formats="altInputFormats"
+                       maxlength="50" />
+            </div>
+
+            
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" ng-hide="vm.isReadOnly" ng-click="vm.save()">Save</button>
+            <button type="button" class="btn btn-warning" ng-click="vm.cancel()">{{vm.cancelText}}</button>
+
+        </div>
+    </form>
+</div>

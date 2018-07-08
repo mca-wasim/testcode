@@ -1,0 +1,78 @@
+﻿<div class="panel panel-default" ng-if="mainVm.dataInitialized">
+    <div class="panel-heading">
+
+        <form name="frmSearch">
+            <div>
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-home"></i>  Home
+                </h3>
+
+            </div>
+        </form>
+    </div>
+    <div class="panel-body">
+
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <table width="100%">
+                    <tr>
+                        <td>
+                            
+
+                        </td>
+                        <td align="right">
+                            <button type="submit" class="btn btn-primary" ng-click="mainVm.createToken()">
+                                <i class="glyphicon glyphicon-check"></i> Add New Contack
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <table ng-table="$root.tableParam" class="table table-bordered">
+            <tr ng-repeat="token in $data">
+                <td data-title="'ContactId'" filter="{ContactId: 'text'}" sortable="'ContactId'">
+                    {{token.ContactId}}
+                </td>
+                <td data-title="'FirstName'" filter="{FirstName: 'text'}" sortable="'FirstName'">
+                    {{token.FirstName}}
+                </td>
+                <td data-title="'LastName'" filter="{LastName: 'text'}" sortable="'LastName'">
+                    {{token.LastName}}
+                </td>
+                <td data-title="'PhoneNumber'" filter="{PhoneNumber: 'text'}" sortable="'PhoneNumber'">
+                    {{token.PhoneNumber}}
+                </td>
+                <td data-title="'Email'" filter="{Email: 'text'}" sortable="'Email'">
+                    {{token.Email}}
+                </td>
+                <td data-title="'Status'" filter="{Status: 'text'}" sortable="'Status'">
+                    {{token.Status}}
+                </td>
+                <td data-title="'Edit'">
+                    <button type="button" class="btn btn-xs btn-primary" data-toggle="tooltip" data-placement="bottom" title="Edit Contact" data-original-title=""
+                            ng-click="mainVm.editRow(token.ContactId)">
+                        <i class="glyphicon glyphicon-edit"></i>
+                    </button>
+                    
+                </td>
+
+                <td data-title="'Delete'">
+                    
+                    <button type="button" class="btn btn-xs btn-primary" data-toggle="tooltip" data-placement="bottom" title="Delete Contact" data-original-title=""
+                            ng-click="mainVm.deleteContact(token.ContactId)">
+                        <i class="glyphicon glyphicon-expand"></i>
+                    </button>
+                </td>
+            </tr>
+        </table>
+
+
+        <!--<input type="file" id="file1" name="file" multiple
+               ng-files="mainVm.getTheFiles($files)" />
+
+        <input type="button" ng-click="mainVm.uploadFiles()" value="Upload" />-->
+
+
+    </div>
+</div>

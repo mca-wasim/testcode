@@ -1,0 +1,6 @@
+namespace CMSToken.Web.Areas.HelpPage.ModelDescriptions
+{
+    public class DictionaryModelDescription : KeyValuePairModelDescription
+    {
+    }
+}

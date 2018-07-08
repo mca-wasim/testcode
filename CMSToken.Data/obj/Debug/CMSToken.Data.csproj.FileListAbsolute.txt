@@ -1,0 +1,12 @@
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\bin\Debug\CMSToken.Data.dll.config
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\bin\Debug\CMSToken.Data.dll
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\bin\Debug\CMSToken.Data.pdb
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\bin\Debug\EntityFramework.dll
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\bin\Debug\EntityFramework.xml
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\obj\Debug\CMSToken.Data.csprojResolveAssemblyReference.cache
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\obj\Debug\CMSToken.Data.dll
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Data\obj\Debug\CMSToken.Data.pdb

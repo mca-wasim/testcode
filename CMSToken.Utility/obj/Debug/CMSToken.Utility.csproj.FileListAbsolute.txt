@@ -1,0 +1,10 @@
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Utility\bin\Debug\CMSToken.Utility.dll.config
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Utility\bin\Debug\CMSToken.Utility.dll
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Utility\bin\Debug\CMSToken.Utility.pdb
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Utility\bin\Debug\log4net.dll
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Utility\bin\Debug\Newtonsoft.Json.dll
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Utility\bin\Debug\log4net.xml
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Utility\bin\Debug\Newtonsoft.Json.xml
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Utility\obj\Debug\CMSToken.Utility.csprojResolveAssemblyReference.cache
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Utility\obj\Debug\CMSToken.Utility.dll
+D:\Ocwen TFS\Primary Servicing\CMSToken\Release\CMSToken-1.0.0\CMSToken.Utility\obj\Debug\CMSToken.Utility.pdb

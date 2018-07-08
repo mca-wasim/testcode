@@ -1,0 +1,14 @@
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\bin\Debug\Evolent.Data.dll.config
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\bin\Debug\Evolent.Data.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\bin\Debug\Evolent.Data.pdb
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\bin\Debug\EntityFramework.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\bin\Debug\Oracle.ManagedDataAccess.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\bin\Debug\EntityFramework.xml
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\obj\Debug\Evolent.Data.csproj.CoreCompileInputs.cache
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\obj\Debug\Evolent.Data.csproj.CopyComplete
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\obj\Debug\Evolent.Data.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\obj\Debug\Evolent.Data.pdb
+F:\Projects\CMSToken-1.0.0\CMSToken.Data\obj\Debug\Evolent.Data.csprojResolveAssemblyReference.cache

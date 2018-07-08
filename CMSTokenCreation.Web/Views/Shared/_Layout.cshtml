@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html ng-app="EvolentApp" ng-cloak>
+<head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Evolent</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/moment")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/UiBootstrap")
+    <script src="~/Scripts/angular-toastr.tpls.js"></script>
+    <link href="~/Content/angular-toastr.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Tahoma, Geneva, sans-serif;
+            font-size: 13px;
+        }
+
+        .simple-div.disable-all {
+            background: #eee;
+        }
+
+            .simple-div.disable-all a {
+                color: #ccc;
+            }
+
+                .simple-div.disable-all a:hover {
+                    cursor: default;
+                }
+
+        label {
+            font-weight: normal !important;
+        }
+
+        .dropdown-menu {
+            min-width: 220px !important;
+        }
+
+        .rt {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <script src="~/Scripts/Evolent.Framework/newApp.js"></script>
+    <script src="~/Scripts/Evolent.Framework/Evolent.Framework.Service.js"></script>
+    <script src="~/src/routes/EvolentRoute.js"></script>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" style="height: 60px;">
+       
+
+        <div class="navbar-header">
+            <a class="navbar-brand text-primary" style="font-size:x-large;cursor: default;"> Evolent</a>
+        </div>
+        <div id="navbar-main" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a ui-sref="home" style="font-size: medium;">Home<span class="sr-only">(current)</span></a></li>
+
+            </ul>
+        </div>
+        <div>
+            <div class="nav navbar-nav navbar-right" style="margin-right:50px;">
+                <div class="navbar-collapse collapse" style="margin-top: -55px;">
+                    <p class="nav navbar-text navbar-right" style="font-size: medium;">Welcome User</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div style="background-color:none;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:12px;
+    margin-bottom:0px;
+    text-align: center;
+    font-size: 8.5px;
+    background: rgba(216, 236, 246, 1);
+    padding: 0px;
+    border-top: 1px solid rgba(59, 168, 231, 1);">
+                This site best viewed in Internet Explorer 11 and above. Copyright © 2018
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/ApplicationScripts")
+    @Scripts.Render()
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

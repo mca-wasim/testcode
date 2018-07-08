@@ -1,0 +1,16 @@
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\bin\Debug\Evolent.Service.dll.config
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\bin\Debug\Evolent.Service.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\bin\Debug\Evolent.Service.pdb
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\bin\Debug\Evolent.Data.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\bin\Debug\Evolent.Model.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\bin\Debug\Evolent.Repository.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\bin\Debug\Evolent.Data.pdb
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\bin\Debug\Evolent.Data.dll.config
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\bin\Debug\Evolent.Model.pdb
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\bin\Debug\Evolent.Repository.pdb
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\bin\Debug\Evolent.Repository.dll.config
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\obj\Debug\Evolent.Service.csprojResolveAssemblyReference.cache
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\obj\Debug\Evolent.Service.csproj.CoreCompileInputs.cache
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\obj\Debug\Evolent.Service.csproj.CopyComplete
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\obj\Debug\Evolent.Service.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Service\obj\Debug\Evolent.Service.pdb

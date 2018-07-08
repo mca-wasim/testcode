@@ -1,0 +1,6 @@
+F:\Projects\CMSToken-1.0.0\CMSToken.Model\bin\Debug\Evolent.Model.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Model\bin\Debug\Evolent.Model.pdb
+F:\Projects\CMSToken-1.0.0\CMSToken.Model\obj\Debug\Evolent.Model.csproj.CoreCompileInputs.cache
+F:\Projects\CMSToken-1.0.0\CMSToken.Model\obj\Debug\Evolent.Model.dll
+F:\Projects\CMSToken-1.0.0\CMSToken.Model\obj\Debug\Evolent.Model.pdb
+F:\Projects\CMSToken-1.0.0\CMSToken.Model\obj\Debug\Evolent.Model.csprojResolveAssemblyReference.cache
